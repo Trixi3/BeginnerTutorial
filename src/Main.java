@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hallo Bene! :)");
+    Wohnung wohnung = new Wohnung();
+        System.out.println(wohnung);
     }
 }
