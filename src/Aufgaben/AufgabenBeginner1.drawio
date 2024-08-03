@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
+  <diagram name="Seite-1" id="_IGn-XOFEs3YLC3SY7-x">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FoixsGpeeTspJ9NEATfb-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="770" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="FoixsGpeeTspJ9NEATfb-2" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Aufgabe 1&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Erstelle eine Klasse Namens Schulklasse, die Klasse soll folgende Attribute enthalten, die &lt;b&gt;außerhalb &lt;/b&gt;der Klasse gesetzt werden können&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Eine Klassenbezeichnung bsp. 9A, 6C o.ä&lt;/li&gt;&lt;li&gt;Einen Klassenlehrer z.b Frau Hodenkobold&lt;/li&gt;&lt;li&gt;Eine Anzahl von Schülern die in der Klasse sind&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Aktzeptanzkriterien:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Variablenname sind eindeutig und gleich von der Struktur&lt;/li&gt;&lt;li&gt;Die Klasse wird über die Main Methode aufgerufen und mit Daten befüllt&lt;/li&gt;&lt;li&gt;Die Attribute sind&amp;nbsp; &lt;b&gt;nur &lt;/b&gt;Get- und Set- Methoden aufrufbar&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FoixsGpeeTspJ9NEATfb-1">
+          <mxGeometry x="10" width="760" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="FoixsGpeeTspJ9NEATfb-3" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Aufgabe 2&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Der Klassenlehrer soll nun nicht mehr als einfach String Attribut übergeben werden sondern soll ein Objekt des Typs Person enthalten. Ändere im Modell das Attribut nun so um, dass es ein Objekt von Typ Person erwartet und weise das Objekt über die Main Methode der Schulklasse zu&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Aktzeptanzkriterien:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Variablenname sind eindeutig und gleich von der Struktur&lt;/li&gt;&lt;li&gt;Die Klasse wird über die Main Methode aufgerufen und mit Daten befüllt&lt;/li&gt;&lt;li&gt;Die Attribute sind&amp;nbsp; &lt;b&gt;nur &lt;/b&gt;Get- und Set- Methoden aufrufbar&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FoixsGpeeTspJ9NEATfb-1">
+          <mxGeometry x="5" y="300" width="760" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="FoixsGpeeTspJ9NEATfb-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="FoixsGpeeTspJ9NEATfb-1" source="FoixsGpeeTspJ9NEATfb-3" target="FoixsGpeeTspJ9NEATfb-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="400" as="sourcePoint" />
+            <mxPoint x="410" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FoixsGpeeTspJ9NEATfb-6" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Aufgabe 3&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Erstelle eine Methode in der Schulklasse, es soll eine Schleife erstellt werden, die für jeden Schüler in der Klasse eine Begrüßung ausspricht, hierbei ist nur die Anzahl an Begüßungen interessant und diese soll über das Terminal ausgegeben werden &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Aktzeptanzkriterien:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Variablenname sind eindeutig und gleich von der Struktur&lt;/li&gt;&lt;li&gt;Die Methode wir in der Main Methode aufgerufen&lt;/li&gt;&lt;li&gt;Die Anzahl der Begrüßungen stimmt mit der Anzahl Schüler überein&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="FoixsGpeeTspJ9NEATfb-1">
+          <mxGeometry x="5" y="590" width="760" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="FoixsGpeeTspJ9NEATfb-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.004;exitY=0.282;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.004;entryY=0.29;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FoixsGpeeTspJ9NEATfb-1" target="FoixsGpeeTspJ9NEATfb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 18px;&quot;&gt;Hilfe Java Beginner&lt;/font&gt;" link="https://javabeginners.de/" id="FoixsGpeeTspJ9NEATfb-7">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="195" y="1060" width="450" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 20px;&quot;&gt;Hilfe W3Schools&lt;/font&gt;" link="https://www.w3schools.com/java/" id="FoixsGpeeTspJ9NEATfb-8">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+            <mxGeometry x="195" y="1100" width="450" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
